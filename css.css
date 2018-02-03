@@ -63,11 +63,6 @@ div.message > div.msg > div.from > span.un {
 
 /* ----------------------------------------Chat---------------------------------------- */
 
-
-#chat .cm .badge-box {
-	background: transparent !important;
-}
-
 #chat .welcome {
     color: #27b2e9;
     border-top: #27b2e9 2px dotted;
