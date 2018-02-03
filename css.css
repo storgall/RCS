@@ -61,6 +61,129 @@ div.message > div.msg > div.from > span.un {
     background-image: url("https://nightbloo.github.io/plug/icons/meh.png");
 }
 
+/* ----------------------------------------People---------------------------------------- */
+
+/*#####[HOST]#####*/
+
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+  color: #F39 !important;
+}
+#user-lists .group.host {
+  color: #F39;
+  background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important;
+}
+
+/*#####[CO-HOSTS]#####*/
+
+.icon-chat-cohost + span,
+#user-lists .group.cohost ~ .user span,
+#dialog-user-role .role-menu .menu ul .cohost span {
+  color: #C0C !important;
+}
+#user-lists .group.cohost {
+  color: #C0C !important;
+  background: linear-gradient(to right, hsla(222,100%,30%,0.5), hsla(222,100%,40%,0.5)) !important;
+}
+
+/*#####[MANAGER]#####*/
+
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+  color: #39F !important;
+}
+#user-lists .group.manager {
+  color: #39F;
+  background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important;
+}
+
+/*#####[BOUNCER]#####*/
+
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+  color: #0F0 !important;
+}
+#user-lists .group.bouncer {
+  color: #0F0;
+  background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) !important;
+}
+
+/*#####[DJ]#####*/
+
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+  color: #FF0 !important;
+}
+#user-lists .group.dj {
+  color: #FF0;
+  background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) !important;
+}
+
+/*#####[SUBS]#####*/
+/*
+#user-rollover .meta.subscriber .status i {
+	background-image: url("http://plugtop.wz.cz/CSr2Tx.png");
+	color: #E6CC26;
+	background-position: -1 -1 !important;
+}
+
+#user-rollover .meta.subscriber .status span {
+	color: #E6CC26;
+}
+
+#user-rollover .actions .giftsub span {
+	color: #E6CC26;
+}
+
+
+#user-rollover .actions .giftsub i {
+	background-image: url("http://plugtop.wz.cz/mjkLmW.png");
+	background-position: 0 0 !important;
+}*/
+
+
+/*#####[SILVERSCUBSRIBER]#####*/
+
+/*#user-rollover .meta.subscriber.silver .status i {
+	background-image: url("http://plugtop.wz.cz/8Brxr9.png");
+	color: #DC24D9;
+	background-position: -1 -1 !important;
+}
+
+#user-rollover .meta.subscriber.silver .status span {
+	color: #DC24D9;
+}*/
+
+/*
+#user-lists .group {
+	border: none !important;
+	box-shadow: 0 0 1px 1px;
+}
+#user-lists .user:hover {
+	background: linear-gradient(to right, hsla(200,100%,20%,.5), hsla(200,100%,40%,.5)) !important;
+}
+#user-lists .list.staff .user:hover .name {
+	color: #eee !important;
+}
+#user-lists .header {
+	height: 42px;
+}
+#user-lists .list-header {
+	top: 44px;
+}
+#user-lists .header .button {
+	top: 0px;
+}
+#user-lists .header .button.selected {
+	border-radius: 0px;
+	background: radial-gradient(hsla(210,10%,50%,.5), hsla(210,10%,40%,.3));
+	border: none !important;
+}*/
+
 /* ----------------------------------------Chat---------------------------------------- */
 
 #chat .welcome {
