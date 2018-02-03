@@ -2,6 +2,12 @@
 @import url("https://nightbloo.github.io/plug/vip.css");
 
 /* ----------------------------------------Main---------------------------------------- */
+
+#chat-messages {
+	border-color: #555;
+	box-shadow: 0 51px 0 rgba(30,35,40,.7);
+}
+
 #room .app-header,
 #app-menu,
 #app-menu .list,
