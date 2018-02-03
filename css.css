@@ -179,7 +179,7 @@ div.message > div.msg > div.from > span.un {
     padding: 2px 7px 2px 7px !important;
 }
 
-/* Border */
+/* Border1 */
 .message.role-dj,
 .emote.role-dj {
     border-left: #FFFF00 2px dotted;
