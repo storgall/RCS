@@ -3,9 +3,33 @@
 
 /* ----------------------------------------Main---------------------------------------- */
 
+#chat-header {
+	background: rgba(30,35,40,.7);
+	border: none !important;
+}
 #chat-messages {
 	border-color: #555;
 	box-shadow: 0 51px 0 rgba(30,35,40,.7);
+}
+#chat-messages::-webkit-scrollbar,
+.dropdown dd::-webkit-scrollbar,
+#woot-rs-list::-webkit-scrollbar,
+#grab-rs-list::-webkit-scrollbar,
+#meh-rs-list::-webkit-scrollbar,
+.dialog::-webkit-scrollbar {
+	width: 7px !important;
+	box-shadow: inset -1px 0 7px hsla(0,0%,0%,.7);
+}
+#chat-messages::-webkit-scrollbar-thumb,
+.dropdown dd::-webkit-scrollbar-thumb,
+#woot-rs-list::-webkit-scrollbar-thumb,
+#grab-rs-list::-webkit-scrollbar-thumb,
+#meh-rs-list::-webkit-scrollbar-thumb,
+.dialog::-webkit-thumb,
+.jspDrag {
+	background: linear-gradient(to right, hsl(210,10%,50%), hsl(210,10%,20%));
+	box-shadow: inset 1px 0 7px hsla(0,0%,100%,.5);
+	border-radius: 5px;
 }
 
 #room .app-header,
