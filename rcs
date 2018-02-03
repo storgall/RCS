@@ -15,4 +15,31 @@
   },
   "ccc":{
     "admin":null,
-    "ambassador":"#95CB00","host":"#FF3399","cohost":"#CC00CC","manager":"#3399FF","bouncer":"#00FF00","rdj":"#FFFF00","subscriber":null,"silversubscriber":null,"friend":"#FF8000","user":"#FF99FF"},"images":{"background":"https://i.imgur.com/Ag1uAad.png","playback":"https://i.imgur.com/ahnyDj3.png","admin":null,"ambassador":null,"host":null,"cohost":null,"manager":null,"bouncer":null,"rdj":null,"subscriber":null,"silversubscriber":null},"emotes":{"emote_name":null}}
+    "ambassador":"#95CB00",
+    "host":"#FF3399",
+    "cohost":"#CC00CC",
+    "manager":"#3399FF",
+    "bouncer":"#00FF00",
+    "rdj":"#FFFF00",
+    "subscriber":null,
+    "silversubscriber":null,
+    "friend":"#FF8000",
+    "user":"#FF99FF"
+  },
+  "images":{
+    "background":"https://i.imgur.com/Ag1uAad.png",
+    "playback":"https://i.imgur.com/ahnyDj3.png",
+    "admin":null,
+    "ambassador":null,
+    "host":null,
+    "cohost":null,
+    "manager":null,
+    "bouncer":null,
+    "rdj":null,
+    "subscriber":null,
+    "silversubscriber":null
+  },
+  "emotes":{
+    "emote_name":null
+  }
+}
