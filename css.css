@@ -72,7 +72,7 @@ div.message > div.msg > div.from > span.un {
 }
 #user-lists .group.host {
   color: #F39;
-  background: linear-gradient(to right, hsla(210,100%,30%,.5), hsla(210,100%,40%,.5)) !important;
+  background: linear-gradient(to right, hsla(330,100%,30%,.5), hsla(330,100%,40%,.5)) !important;
 }
 
 /*#####[CO-HOSTS]#####*/
@@ -84,7 +84,7 @@ div.message > div.msg > div.from > span.un {
 }
 #user-lists .group.cohost {
   color: #C0C !important;
-  background: linear-gradient(to right, hsla(222,100%,30%,0.5), hsla(222,100%,40%,0.5)) !important;
+  background: linear-gradient(to right, hsla(300,100%,10%,0.5), hsla(300,100%,20%,0.5)) !important;
 }
 
 /*#####[MANAGER]#####*/
@@ -96,7 +96,7 @@ div.message > div.msg > div.from > span.un {
 }
 #user-lists .group.manager {
   color: #39F;
-  background: linear-gradient(to right, hsla(0,100%,20%,.5), hsla(0,100%,30%,.5)) !important;
+  background: linear-gradient(to right, hsla(210,100%,10%,.5), hsla(210,100%,20%,.5)) !important;
 }
 
 /*#####[BOUNCER]#####*/
@@ -108,7 +108,7 @@ div.message > div.msg > div.from > span.un {
 }
 #user-lists .group.bouncer {
   color: #0F0;
-  background: linear-gradient(to right, hsla(10,100%,30%,.5), hsla(10,100%,40%,.5)) !important;
+  background: linear-gradient(to right, hsla(120,100%,20%,.5), hsla(120,100%,30%,.5)) !important;
 }
 
 /*#####[DJ]#####*/
@@ -120,7 +120,7 @@ div.message > div.msg > div.from > span.un {
 }
 #user-lists .group.dj {
   color: #FF0;
-  background: linear-gradient(to right, hsla(20,100%,30%,.5), hsla(30,100%,40%,.5)) !important;
+  background: linear-gradient(to right, hsla(60,100%,20%,.5), hsla(60,100%,30%,.5)) !important;
 }
 
 /*#####[SUBS]#####*/
