@@ -2,7 +2,7 @@
   "room":"CZ/SK \\u2665\\u2665 Magical/Army",
   "author":"storgall",
   "icon":"https://i.imgur.com/f2NhUBP.png",
-  "css":"https://rawgit.com/storgall/RCS/master/css.css",
+  "css":"https://cdn.rawgit.com/storgall/RCS/master/css.css",
   "rules":{
     "allowAutorespond":true,
     "allowAutowoot":true,
