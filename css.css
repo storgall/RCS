@@ -206,9 +206,9 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-host,
 .emote.role-host {
-    border-top: #FF3399 25px dotted;
+    border-top: #FF3399 2px dotted;
     border-left: #FF3399 2px dotted;
-    border-bottom: #FF3399 25px dotted;
+    border-bottom: #FF3399 2px dotted;
     border-right: #FF3399 2px dotted;
 }
 
@@ -236,8 +236,8 @@ div.message > div.msg > div.from > span.un {
 
 .message.role-host:hover,
 .emote.role-host:hover {
-    //border-top-style: solid;
-    //border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
 }
 
 .message.role-host .msg .text::selection,
