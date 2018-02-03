@@ -65,14 +65,8 @@ div.message > div.msg > div.from > span.un {
 /* ----------------------------------------Chat---------------------------------------- */
 
 
-#chat .cm {
-	background: linear-gradient(hsla(220,10%,20%,.5), hsla(220,10%,15%,.5));
-	box-shadow: inset 1px 1px 0 hsla(220,10%,20%,.8);
-}
-#chat .cm.message:nth-child(odd) {
-	background: linear-gradient(hsla(220,10%,10%,.5), hsla(220,10%,12%,.5));
-	box-shadow: inset 1px 1px 0 hsla(220,10%,5%,.8);
-	color: #ccc;
+#chat .cm .badge-box {
+	background: transparent !important;
 
 
 #chat .welcome {
