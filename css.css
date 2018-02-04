@@ -2,6 +2,11 @@
 @import url("https://nightbloo.github.io/plug/vip.css");
 
 /* ----------------------------------------Main---------------------------------------- */
+#chat .log {
+	background: rgba(0,0,0,0.46) !important;
+	box-shadow: 0 0 0 1px #19222D;
+}
+	
 #room .app-header,
 #app-menu,
 #app-menu .list,
@@ -192,6 +197,7 @@ div.message > div.msg > div.from > span.un {
     border-left: #27b2e9 2px dotted;
     border-bottom: #27b2e9 2px dotted;
     border-right: #27b2e9 2px dotted;
+    transition: border 0.3s;
 }
 
 #chat .log {
@@ -308,24 +314,28 @@ div.message > div.msg > div.from > span.un {
 .emote.role-dj {
     border-left: #FFFF00 2px dotted;
     border-right: #FFFF00 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-bouncer,
 .emote.role-bouncer {
     border-left: #00FF00 2px dotted;
     border-right: #00FF00 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-manager,
 .emote.role-manager {
     border-left: #3399FF 2px dotted;
     border-right: #3399FF 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-cohost,
 .emote.role-cohost {
     border-left: #CC00CC 2px dotted;
     border-right: #CC00CC 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-host,
@@ -334,12 +344,14 @@ div.message > div.msg > div.from > span.un {
     border-left: #FF3399 2px dotted;
     border-bottom: #FF3399 2px dotted;
     border-right: #FF3399 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-ambassador,
 .emote.role-ambassador {
     border-left: #95CB00 2px dotted;
     border-right: #95CB00 2px dotted;
+    transition: border 0.3s;
 }
 
 .message.role-dj:hover,
@@ -356,7 +368,6 @@ div.message > div.msg > div.from > span.un {
 .emote.role-ambassador:hover {
     border-left-style: solid;
     border-right-style: solid;
-    transition: border 0.3s;
 }
 
 .message.role-host:hover,
