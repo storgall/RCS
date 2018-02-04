@@ -356,6 +356,7 @@ div.message > div.msg > div.from > span.un {
 .emote.role-ambassador:hover {
     border-left-style: solid;
     border-right-style: solid;
+	transition: border 0.3s;
 }
 
 .message.role-host:hover,
