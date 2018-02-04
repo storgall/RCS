@@ -14,7 +14,7 @@
     "forceSmartVote":false
   },
   "ccc":{
-    "admin":null,
+    "admin":"",
     "ambassador":"#95CB00",
     "host":"#FF3399",
     "cohost":"#CC00CC",
